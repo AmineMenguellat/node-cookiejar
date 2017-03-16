@@ -172,8 +172,7 @@
                     cookies[cookie.name] = [cookie];
                     return cookies[cookie.name]
                 }
-                return false
-                // return false # rien a modifié le cookie n'existe pas  
+                return false 
             };
 
             // add cookie
